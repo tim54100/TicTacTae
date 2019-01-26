@@ -55,9 +55,9 @@ var vm = new Vue({
 					this.check(this.player2);
 				}
 				if(this.gameover && this.circle==0)
-					this.winner="Cross is winner";
+					this.winner=" Cross";
 				else if(this.gameover && this.circle==1)
-					this.winner="Circle is winner";
+					this.winner=" Circle";
 			}
 		},
 		check(player){
